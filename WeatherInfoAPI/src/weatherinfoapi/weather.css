@@ -1,0 +1,80 @@
+.button{
+    -fx-background-color: red;
+}
+
+
+.root{
+    -fx-background-image: url("Weather-Background.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 800 500;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+#lable1{
+      -fx-background-image: url("");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100 100;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    
+}
+#lable2{
+      -fx-background-image: url("");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 200 200;
+    -fx-background-position: center 30;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    
+}
+#sscity{
+    
+    -fx-font-size:20px;
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+}
+#sscountry{
+    
+    -fx-font-size:20px;
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+}
+#sstemp{
+    
+    -fx-font-size:20px;
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+}
+#sshumidity{
+    
+    -fx-font-size:20px;
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+}
+#tempout{
+    
+    -fx-font-size:45px;
+    -fx-font-weight: bold;
+    -fx-text-fill:rgb(255,255,0);
+    
+}
+#humidityout{
+    
+    -fx-font-size:45px;
+    -fx-font-weight: bold;
+    -fx-text-fill:rgb(255,255,0);
+    
+}
+#city{
+    
+    -fx-background-color:rgb(220,220,200);
+}
+#ccode{
+    
+    -fx-background-color:rgb(220,220,200);
+}
+#button{
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+    -fx-background-color:rgb(176,196,222);
+     -fx-font-size:20px;
+}
